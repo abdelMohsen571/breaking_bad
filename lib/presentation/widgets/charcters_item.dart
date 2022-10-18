@@ -22,7 +22,7 @@ class CharctersItem extends StatelessWidget {
             color: MyColors.swatchColor,
             child: charcter.image.isNotEmpty
                 ? FadeInImage.assetNetwork(
-                    placeholder: "assets/images/loading.gif",
+                    placeholder: "assets/images/loading2.gif",
                     image: charcter.image)
                 : Image.asset("assets/images/Capture.PNG"),
           ),
